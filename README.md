@@ -62,7 +62,7 @@
 <!-- GETTING STARTED -->
 ## Começando
 
-To get a local copy up and running follow these simple steps.
+Para obter uma cópia local instalada e funcionando, siga estas etapas simples.
 <!-- 
 ### Prerequisites
 
