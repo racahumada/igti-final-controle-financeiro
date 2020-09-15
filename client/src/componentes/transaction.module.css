@@ -1,0 +1,28 @@
+.divBase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 8px;
+}
+.divIncome {
+  background-color: rgb(0, 227, 235);
+}
+.divExpenses {
+  background-color: rgb(255, 181, 181);
+}
+.divFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconsFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons {
+  color: #fff;
+  padding: 5px;
+}

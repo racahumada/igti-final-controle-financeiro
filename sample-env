@@ -1,0 +1,2 @@
+DB_CONNECTION=mongodb+srv://<USER>:<PASSWORD>@devcluster.kepoa.azure.mongodb.net/<NAME_DB>
+?retryWrites=true&w=majority

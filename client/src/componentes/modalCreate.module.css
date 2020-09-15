@@ -1,0 +1,40 @@
+.modal2 {
+  width: 30vw;
+}
+
+.modalBody {
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid rgb(207, 207, 207);
+}
+
+.divModalFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.divFormFlex {
+  display: flex;
+  flex-direction: row;
+}
+.divFormFlex label {
+  margin: 5px;
+}
+
+.teste {
+  width: 5px;
+  height: 5px;
+}
+
+@media (max-width: 1000px) {
+  .modal {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .modal {
+    width: 80vw;
+  }
+}
