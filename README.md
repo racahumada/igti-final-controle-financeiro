@@ -40,7 +40,7 @@
   No <strong>APP</strong> são disponibilizadas as telas visualizar as receitas e despesas, ele tem um filtro inicial por período de ano/mês <strong>atual</strong> (yyyy-mm), dentro desse período também é possível pesquisar pela descrição. Além de poder fazer a criação e edição dos dados e exclusão de informações.
 </p>
 <p align="center">
-  <img src="./images/tela-1-%5Bvazia%5D.jpg" alt="Tela Inicial" />
+  <img src="./images-sample/1-tela-inicial.jpg" alt="Tela Inicial" />
 </p>
 
 
@@ -76,46 +76,67 @@ npm install npm@latest -g
 
 1. Clonar o repositório
 ```sh
-git clone https://github.com/racahumada/igti-React-Juros-Compostos
+git clone https://github.com/racahumada/igti-final-controle-financeiro.git
 ```
+#### API ("./")
 2. Instalar Pacotes
 ```sh
 yarn install
 ```
-3. Executar App
+3. Executar API
+```sh
+yarn server
+```
+
+* API roda na porta 3001
+* <strong>Obs.:</strong> Criar um arquivo ".env" para configurar a variável "DB_CONNECTION", como no sample-env, para ter acesso a base de dados.
+
+#### APP ("./client")
+2. Instalar Pacotes
+```sh
+yarn install
+```
+3. Executar APP
 ```sh
 yarn start
 ```
+
 Para rodar em modo de desenvolvimento.<br />
+<strong>APP:</strong>
 Abrir [http://localhost:3000](http://localhost:3000) para visualizar no navegador
 
 <!-- MODO DE USO -->
 ## Modo de Uso
 <p>
   Campos Disponíveis <br />
-  <strong>Capital Inicial</strong> - Neste campo digite o valor a ser calculado;<br />
-  <strong>Taxa de Juros Mensal</strong> - Neste campo a taxa de juros base;<br />
-  <strong>Período (Mensal)</strong> - Neste campo digitar o período de investimento do valor
+  <strong>Período</strong> - Neste campo é possível alterar o período dos lançamentos;<br />
+  <strong>Filtro</strong> - É possível filtrar os lançamentos dos perído através da descrição. Ex.: "sistemas", vai procurar pelos dados relacionados a 'sistemas';<br />
+  <strong>+ Novo Lançamento</strong> - Permite adicionar um novo lançamento na base; <br />
+  <strong>Editar</strong> - Permite editar um lançamento da base; <br />
+  <strong>Excluir</strong> - Deleta um lançamento na base; <br />
 </p>
 <p align="center">
-  Exemplo 1 - Cálculo a juros negativo <br />
-  <img src="./images/tela-2-%5Bjuros-negativo%5D.jpg" alt="Juros Negativo" />
+  Exemplo 1 - Alterando Período <br />
+  <img src="./images-sample/2-escolha-periodo.jpg" alt="Trocando Período" />
 </p>
 <p align="center">
-  Exemplo 2 - Cálculo a juros positivo <br />
-  <img src="./images/tela-3-%5Bjuros-positivo%5D.jpg" alt="Juros Positivo" />
+  Exemplo 2 - Filtro por descrição <br />
+  <img src="./images-sample/3-filtro.jpg" alt="Filtro por descrição" />
 </p>
 <p align="center">
-  Exemplo 3 - Responsividade <br />
-  <img src="./images/tela-4-%5Bresponsivo%5D.jpg" alt="Design Responsivo" />
+  Exemplo 3 - Adicionar novos lançamentos <br />
+  <img src="./images-sample/4-novos-lancamentos.jpg" alt="Adicionar novos lançamentos" />
 </p>
-
+<p align="center">
+  Exemplo 4 - Editar dados do lançamento <br />
+  <img src="./images-sample/5-edicao.jpg" alt="Editar dados do lançamento" />
+</p>
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 <!-- ROTEIRO -->
 ## Roteiro
 
-Consulte os [problemas abertos](https://github.com/racahumada/igti-React-Juros-Compostos/issues) para obter uma lista de recursos propostos (e problemas conhecidos).
+Consulte os [problemas abertos](https://github.com/racahumada/igti-final-controle-financeiro/issues) para obter uma lista de recursos propostos (e problemas conhecidos).
 
 <!-- CONTRIBUIÇÃO -->
 ## Contribuição
@@ -138,7 +159,7 @@ Distributed under the MIT License. See `LICENSE` for more information. -->
 
 Ricardo Castro - [LinkedIn Perfil](https://www.linkedin.com/in/ricardo-castro-ahumada/) - ricardocastro.ti@gmail.com
 
-Project Link: [https://github.com/racahumada/igti-React-Juros-Compostos](https://github.com/racahumada/igti-React-Juros-Compostos)
+Project Link: [https://github.com/racahumada/igti-final-controle-financeiro](https://github.com/racahumada/igti-final-controle-financeiro)
 
 <!-- ACKNOWLEDGEMENTS -->
 <!-- ## Acknowledgements
@@ -148,15 +169,15 @@ Project Link: [https://github.com/racahumada/igti-React-Juros-Compostos](https:/
 * []()
 
 --> 
-[contributors-shield]: https://img.shields.io/github/contributors/racahumada/igti-React-Juros-Compostos.svg?style=flat-square
-[contributors-url]: https://github.com/racahumada/igti-React-Juros-Compostos/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/racahumada/igti-React-Juros-Compostos.svg?style=flat-square
-[forks-url]: https://github.com/racahumada/igti-React-Juros-Compostos/network/members
-[stars-shield]: https://img.shields.io/github/stars/racahumada/igti-React-Juros-Compostos.svg?style=flat-square
-[stars-url]: https://github.com/racahumada/igti-React-Juros-Compostos/stargazers
-[issues-shield]: https://img.shields.io/github/issues/racahumada/igti-React-Juros-Compostos.svg?style=flat-square
-[issues-url]: https://github.com/racahumada/igti-React-Juros-Compostos/issues
-[license-shield]: https://img.shields.io/github/license/racahumada/igti-React-Juros-Compostos.svg?style=flat-square
-[license-url]: https://github.com/racahumada/igti-React-Juros-Compostos/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/racahumada/igti-final-controle-financeiro.svg?style=flat-square
+[contributors-url]: https://github.com/racahumada/igti-final-controle-financeiro/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/racahumada/igti-final-controle-financeiro.svg?style=flat-square
+[forks-url]: https://github.com/racahumada/igti-final-controle-financeiro/network/members
+[stars-shield]: https://img.shields.io/github/stars/racahumada/igti-final-controle-financeiro.svg?style=flat-square
+[stars-url]: https://github.com/racahumada/igti-final-controle-financeiro/stargazers
+[issues-shield]: https://img.shields.io/github/issues/racahumada/igti-final-controle-financeiro.svg?style=flat-square
+[issues-url]: https://github.com/racahumada/igti-final-controle-financeiro/issues
+[license-shield]: https://img.shields.io/github/license/racahumada/igti-final-controle-financeiro.svg?style=flat-square
+[license-url]: https://github.com/racahumada/igti-final-controle-financeiro/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ricardo-castro-ahumada/
