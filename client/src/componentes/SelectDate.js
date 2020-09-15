@@ -41,6 +41,7 @@ export default function SelectDate(props) {
   const selectStyle = `${css.div} browser-default`;
   return (
     <div>
+      <h5 style={{ textAlign: 'center' }}>Período</h5>
       <select
         className={selectStyle}
         value={currentDate}
